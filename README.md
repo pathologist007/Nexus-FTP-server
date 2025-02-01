@@ -1,9 +1,14 @@
 Make sure you do the following:
 On your PC and Router:
+
 1- Making inbound and outbound rules: choose port with specific remote port 2121  [ON WINDOWS FIREWALL ADVANCES SETTINGS]
+
 2- Making passive inbound and outbound rules: choose port with specific remote port 50000-50010 [ON WINDOWS FIREWALL ADVANCES SETTINGS]
+
 3- [Mandatory] Go to your router settings and disable the islolation of SSID from WLAN settings then SSID settings and also disable the isoltaion from Basic WLAN settings. [See pictures attached]
+
 4- [Optional] You can enable the the port trigger application from settings. [See pictures attached]
+
 5- Before using Nexus, run your terminal and install pyftpdlib:
 Windows:
 
