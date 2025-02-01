@@ -1,6 +1,6 @@
-#Make sure you do the following:
+# Make sure you do the following:
 
-#On your PC and Router:
+# On your PC and Router:
 
 1- Making inbound and outbound rules: choose port with specific remote port 2121  [ON WINDOWS FIREWALL ADVANCES SETTINGS]
 
@@ -23,7 +23,7 @@ Linux:
 
       or: pip install pyftpdlib --break-system-packages
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#On Termux:
+# On Termux:
 
 1- Launch Termux, and ensure it is up to date:
 
@@ -46,15 +46,15 @@ ls
 
 cd [directory]
 
-#Important NOTE: USE CD TO NATIGATE INTO THE DIRECTORY YOU NEED TO DOWNLOAD NEEDED FILED FROM FTP SERVER INTO YOUR MOBLIE PHONE.
+# Important NOTE: USE CD TO NATIGATE INTO THE DIRECTORY YOU NEED TO DOWNLOAD NEEDED FILED FROM FTP SERVER INTO YOUR MOBLIE PHONE.
 
 4- Run the FTP server script and reconnect using the new port:
 
 ftp [IPV4] 2121
 
-#Important Note: It is imortant to run ipconfig, for windows or ifconfig, for linux on the terminal of your PC to know the IPV4 of the PC hosting the FTP server.
+# Important Note: It is imortant to run ipconfig, for windows or ifconfig, for linux on the terminal of your PC to know the IPV4 of the PC hosting the FTP server.
 
-#Important Note: If the files received using ftp are corrupted, type after connection using ftp the command: bin , it will work correctly after enforcing binary mode in the FTP client, or: install lftp instead.
+# Important Note: If the files received using ftp are corrupted, type after connection using ftp the command: bin , it will work correctly after enforcing binary mode in the FTP client, or: install lftp instead.
 
 5- If you want to:
 ⦁ Download more files: Use the get <filename> command
@@ -62,7 +62,7 @@ ftp [IPV4] 2121
 ⦁ Navigate through directories: Use cd <directory-name>
 ⦁ Check your current directory or preview your current path: Use pwd
 
-#lftp Commands Guide:
+# lftp Commands Guide:
 
 1. Install lftp:
 
