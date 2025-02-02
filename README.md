@@ -152,4 +152,4 @@ exit
 ```
 
 ## Conclusion
-With this guide, you should now be able to set up and use FTP servers and clients across multiple platforms, ensuring smooth file transfers both locally and remotely. For further assistance or troubleshooting, refer to the respective software documentation.
+With this guide, you should now be able to set up and use FTP servers and clients across multiple platforms, ensuring smooth file transfers both locally and remotely.
